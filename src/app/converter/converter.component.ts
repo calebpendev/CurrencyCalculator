@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CurrencyExchangeService } from '../services/exchange-rates.service'
+import { CurrencyExchangeService } from '../services/exchange-rates.service';
 
 
 @Component({
