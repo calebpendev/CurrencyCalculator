@@ -12,7 +12,8 @@ export class ConverterComponent implements OnInit {
   amount = 1;
   from = 'CAD';
   to = 'USD';
-  rates: { [key: string]: number };
+
+  rates!: { [key: string]: number; };
 
   convert(): number {
     return this.amount * this.rates[this.to];

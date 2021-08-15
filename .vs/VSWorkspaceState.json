@@ -3,9 +3,9 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\services",
-    "\\src\\app\\services\\payloads"
+    "\\src\\app\\converter",
+    "\\src\\app\\services"
   ],
-  "SelectedNode": "\\src\\app\\services\\payloads\\exchange-rates-response.ts",
+  "SelectedNode": "\\src\\app\\converter\\converter.component.ts",
   "PreviewInSolutionExplorer": false
 }
