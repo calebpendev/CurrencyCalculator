@@ -3,8 +3,8 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\services"
+    "\\src\\app\\converter"
   ],
-  "SelectedNode": "\\src\\app\\services\\exchange-rates.service.ts",
+  "SelectedNode": "\\src\\app\\converter\\converter.component.html",
   "PreviewInSolutionExplorer": false
 }

@@ -18,6 +18,10 @@ export class ConverterComponent implements OnInit {
     return this.amount * this.rates[this.to];
   }
 
+  getAllCurrencies(): string[] {
+    return Object.keys(this.rates);
+  }
+
   loadRates() {
     this.service.getRates(this.from).subscribe(res => this.rates = res.rates);
   }
